@@ -1,0 +1,113 @@
+[debug] [2026-08-03T11:29:21.656Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:29:21.671Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:android:sha:list 1:75719848755:android:7a91a83d8dbfda133e0446 --project tribe-talk-app
+[debug] [2026-08-03T11:29:21.698Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:29:21.698Z] Platform:      darwin
+[debug] [2026-08-03T11:29:21.699Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:29:21.700Z] Time:          Mon Aug 03 2026 16:29:21 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:29:21.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:29:21.702Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-08-03T11:29:21.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:29:21.745Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:29:21.747Z] Checked if tokens are valid: false, expires at: 1785703582786
+[debug] [2026-08-03T11:29:21.747Z] Checked if tokens are valid: false, expires at: 1785703582786
+[debug] [2026-08-03T11:29:21.748Z] > refreshing access token with scopes: []
+[debug] [2026-08-03T11:29:21.749Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-03T11:29:21.750Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-03T11:29:22.590Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-03T11:29:22.590Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-03T11:29:22.623Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha [none]
+[debug] [2026-08-03T11:29:22.628Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-08-03T11:29:22.628Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-08-03T11:29:23.922Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha 200
+[debug] [2026-08-03T11:29:23.922Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {}
+[info] No SHA certificate hashes found.
+[debug] [2026-08-03T11:29:46.509Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:29:46.513Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:android:sha:create 1:75719848755:android:7a91a83d8dbfda133e0446 4D:F2:E2:4B:01:72:EB:0A:1A:6C:5D:18:B0:84:B8:09:69:98:73:E0 --project tribe-talk-app
+[debug] [2026-08-03T11:29:46.516Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:29:46.516Z] Platform:      darwin
+[debug] [2026-08-03T11:29:46.516Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:29:46.516Z] Time:          Mon Aug 03 2026 16:29:46 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:29:46.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:29:46.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:29:46.531Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:29:46.534Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:29:46.535Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:29:46.539Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha [none]
+[debug] [2026-08-03T11:29:46.547Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {"shaHash":"4D:F2:E2:4B:01:72:EB:0A:1A:6C:5D:18:B0:84:B8:09:69:98:73:E0","certType":"SHA_1"}
+[debug] [2026-08-03T11:29:48.964Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha 200
+[debug] [2026-08-03T11:29:48.965Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {"name":"projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha/aa28409cd953c759","shaHash":"4df2e24b0172eb0a1a6c5d18b084b809699873e0","certType":"SHA_1"}
+[debug] [2026-08-03T11:30:04.376Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:30:04.377Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:android:sha:create 1:75719848755:android:7a91a83d8dbfda133e0446 62:18:60:D3:FA:3E:CD:4E:3A:D1:8E:65:5A:D4:A1:D0:2F:4C:56:8A:09:56:9F:CC:12:6E:D1:6C:CA:DD:4C:A6 --project tribe-talk-app
+[debug] [2026-08-03T11:30:04.378Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:30:04.378Z] Platform:      darwin
+[debug] [2026-08-03T11:30:04.378Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:30:04.378Z] Time:          Mon Aug 03 2026 16:30:04 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:30:04.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:30:04.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:30:04.384Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:30:04.387Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:04.387Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:04.389Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha [none]
+[debug] [2026-08-03T11:30:04.389Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {"shaHash":"62:18:60:D3:FA:3E:CD:4E:3A:D1:8E:65:5A:D4:A1:D0:2F:4C:56:8A:09:56:9F:CC:12:6E:D1:6C:CA:DD:4C:A6","certType":"SHA_256"}
+[debug] [2026-08-03T11:30:05.673Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha 200
+[debug] [2026-08-03T11:30:05.673Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {"name":"projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha/fb06d927e963245c","shaHash":"621860d3fa3ecd4e3ad18e655ad4a1d02f4c568a09569fcc126ed16ccadd4ca6","certType":"SHA_256"}
+[debug] [2026-08-03T11:30:31.252Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:30:31.257Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:sdkconfig ANDROID 1:75719848755:android:7a91a83d8dbfda133e0446 --project tribe-talk-app --out android/app/google-services.json
+[debug] [2026-08-03T11:30:31.257Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:30:31.257Z] Platform:      darwin
+[debug] [2026-08-03T11:30:31.257Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:30:31.258Z] Time:          Mon Aug 03 2026 16:30:31 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:30:31.258Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:30:31.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:30:31.265Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:30:31.268Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:31.268Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:31.269Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config [none]
+[debug] [2026-08-03T11:30:33.201Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config 200
+[debug] [2026-08-03T11:30:33.202Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config {"configFilename":"google-services.json","configFileContents":"ewogICJwcm9qZWN0X2luZm8iOiB7CiAgICAicHJvamVjdF9udW1iZXIiOiAiNzU3MTk4NDg3NTUiLAogICAgInByb2plY3RfaWQiOiAidHJpYmUtdGFsay1hcHAiLAogICAgInN0b3JhZ2VfYnVja2V0IjogInRyaWJlLXRhbGstYXBwLmZpcmViYXNlc3RvcmFnZS5hcHAiCiAgfSwKICAiY2xpZW50IjogWwogICAgewogICAgICAiY2xpZW50X2luZm8iOiB7CiAgICAgICAgIm1vYmlsZXNka19hcHBfaWQiOiAiMTo3NTcxOTg0ODc1NTphbmRyb2lkOjdhOTFhODNkOGRiZmRhMTMzZTA0NDYiLAogICAgICAgICJhbmRyb2lkX2NsaWVudF9pbmZvIjogewogICAgICAgICAgInBhY2thZ2VfbmFtZSI6ICJjb20udHJpYmV0YWxrLmFwcCIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJvYXV0aF9jbGllbnQiOiBbCiAgICAgICAgewogICAgICAgICAgImNsaWVudF9pZCI6ICI3NTcxOTg0ODc1NS0wNjdkdHZobTNiZTFwaW45OGVnbmxna3JvcHM2czYwaC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsCiAgICAgICAgICAiY2xpZW50X3R5cGUiOiAxLAogICAgICAgICAgImFuZHJvaWRfaW5mbyI6IHsKICAgICAgICAgICAgInBhY2thZ2VfbmFtZSI6ICJjb20udHJpYmV0YWxrLmFwcCIsCiAgICAgICAgICAgICJjZXJ0aWZpY2F0ZV9oYXNoIjogIjRkZjJlMjRiMDE3MmViMGExYTZjNWQxOGIwODRiODA5Njk5ODczZTAiCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiY2xpZW50X2lkIjogIjc1NzE5ODQ4NzU1LTQ2NmhraW0zM3R1b2VycGk0M21kcjc3OWJoMWJrbW9xLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwKICAgICAgICAgICJjbGllbnRfdHlwZSI6IDMKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJhcGlfa2V5IjogWwogICAgICAgIHsKICAgICAgICAgICJjdXJyZW50X2tleSI6ICJBSXphU3lEcXV0NFVaeHFVT0xkai1vYWVZaGpLRExDcno3ZUN0djAiCiAgICAgICAgfQogICAgICBdLAogICAgICAic2VydmljZXMiOiB7CiAgICAgICAgImFwcGludml0ZV9zZXJ2aWNlIjogewogICAgICAgICAgIm90aGVyX3BsYXRmb3JtX29hdXRoX2NsaWVudCI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICJjbGllbnRfaWQiOiAiNzU3MTk4NDg3NTUtNDY2aGtpbTMzdHVvZXJwaTQzbWRyNzc5YmgxYmttb3EuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLAogICAgICAgICAgICAgICJjbGllbnRfdHlwZSI6IDMKICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICJjbGllbnRfaWQiOiAiNzU3MTk4NDg3NTUtbjl1M2t2MWo4ZHQ3Z3NkbzBmNGQ1OHFvN2twODZrcmIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLAogICAgICAgICAgICAgICJjbGllbnRfdHlwZSI6IDIsCiAgICAgICAgICAgICAgImlvc19pbmZvIjogewogICAgICAgICAgICAgICAgImJ1bmRsZV9pZCI6ICJjb20udHJpYmV0YWxrLmFwcCIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdLAogICJjb25maWd1cmF0aW9uX3ZlcnNpb24iOiAiMSIKfQ=="}
+[error] 
+[error] Error: android/app/google-services.json already exists
+[debug] [2026-08-03T11:30:49.319Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:30:49.322Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:sdkconfig ANDROID 1:75719848755:android:7a91a83d8dbfda133e0446 --project tribe-talk-app --out /tmp/tribetalk-google-services.json
+[debug] [2026-08-03T11:30:49.322Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:30:49.322Z] Platform:      darwin
+[debug] [2026-08-03T11:30:49.322Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:30:49.323Z] Time:          Mon Aug 03 2026 16:30:49 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:30:49.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:30:49.331Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:30:49.331Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:30:49.333Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:49.333Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:49.334Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config [none]
+[debug] [2026-08-03T11:30:50.735Z] ----------------------------------------------------------------------
+[debug] [2026-08-03T11:30:50.737Z] Command:       /opt/homebrew/Cellar/node/25.5.0/bin/node /opt/homebrew/bin/firebase apps:android:sha:list 1:75719848755:android:7a91a83d8dbfda133e0446 --project tribe-talk-app
+[debug] [2026-08-03T11:30:50.737Z] CLI Version:   14.24.1
+[debug] [2026-08-03T11:30:50.737Z] Platform:      darwin
+[debug] [2026-08-03T11:30:50.737Z] Node Version:  v25.5.0
+[debug] [2026-08-03T11:30:50.738Z] Time:          Mon Aug 03 2026 16:30:50 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-03T11:30:50.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-03T11:30:50.746Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-03T11:30:50.747Z] > authorizing via signed-in user (abdmuqeetk.69@gmail.com)
+[debug] [2026-08-03T11:30:50.753Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:50.753Z] Checked if tokens are valid: true, expires at: 1785760161590
+[debug] [2026-08-03T11:30:50.757Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha [none]
+[debug] [2026-08-03T11:30:51.051Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config 200
+[debug] [2026-08-03T11:30:51.052Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/config {"configFilename":"google-services.json","configFileContents":"ewogICJwcm9qZWN0X2luZm8iOiB7CiAgICAicHJvamVjdF9udW1iZXIiOiAiNzU3MTk4NDg3NTUiLAogICAgInByb2plY3RfaWQiOiAidHJpYmUtdGFsay1hcHAiLAogICAgInN0b3JhZ2VfYnVja2V0IjogInRyaWJlLXRhbGstYXBwLmZpcmViYXNlc3RvcmFnZS5hcHAiCiAgfSwKICAiY2xpZW50IjogWwogICAgewogICAgICAiY2xpZW50X2luZm8iOiB7CiAgICAgICAgIm1vYmlsZXNka19hcHBfaWQiOiAiMTo3NTcxOTg0ODc1NTphbmRyb2lkOjdhOTFhODNkOGRiZmRhMTMzZTA0NDYiLAogICAgICAgICJhbmRyb2lkX2NsaWVudF9pbmZvIjogewogICAgICAgICAgInBhY2thZ2VfbmFtZSI6ICJjb20udHJpYmV0YWxrLmFwcCIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJvYXV0aF9jbGllbnQiOiBbCiAgICAgICAgewogICAgICAgICAgImNsaWVudF9pZCI6ICI3NTcxOTg0ODc1NS0wNjdkdHZobTNiZTFwaW45OGVnbmxna3JvcHM2czYwaC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsCiAgICAgICAgICAiY2xpZW50X3R5cGUiOiAxLAogICAgICAgICAgImFuZHJvaWRfaW5mbyI6IHsKICAgICAgICAgICAgInBhY2thZ2VfbmFtZSI6ICJjb20udHJpYmV0YWxrLmFwcCIsCiAgICAgICAgICAgICJjZXJ0aWZpY2F0ZV9oYXNoIjogIjRkZjJlMjRiMDE3MmViMGExYTZjNWQxOGIwODRiODA5Njk5ODczZTAiCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiY2xpZW50X2lkIjogIjc1NzE5ODQ4NzU1LTQ2NmhraW0zM3R1b2VycGk0M21kcjc3OWJoMWJrbW9xLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwKICAgICAgICAgICJjbGllbnRfdHlwZSI6IDMKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJhcGlfa2V5IjogWwogICAgICAgIHsKICAgICAgICAgICJjdXJyZW50X2tleSI6ICJBSXphU3lEcXV0NFVaeHFVT0xkai1vYWVZaGpLRExDcno3ZUN0djAiCiAgICAgICAgfQogICAgICBdLAogICAgICAic2VydmljZXMiOiB7CiAgICAgICAgImFwcGludml0ZV9zZXJ2aWNlIjogewogICAgICAgICAgIm90aGVyX3BsYXRmb3JtX29hdXRoX2NsaWVudCI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICJjbGllbnRfaWQiOiAiNzU3MTk4NDg3NTUtNDY2aGtpbTMzdHVvZXJwaTQzbWRyNzc5YmgxYmttb3EuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLAogICAgICAgICAgICAgICJjbGllbnRfdHlwZSI6IDMKICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICJjbGllbnRfaWQiOiAiNzU3MTk4NDg3NTUtbjl1M2t2MWo4ZHQ3Z3NkbzBmNGQ1OHFvN2twODZrcmIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLAogICAgICAgICAgICAgICJjbGllbnRfdHlwZSI6IDIsCiAgICAgICAgICAgICAgImlvc19pbmZvIjogewogICAgICAgICAgICAgICAgImJ1bmRsZV9pZCI6ICJjb20udHJpYmV0YWxrLmFwcCIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdLAogICJjb25maWd1cmF0aW9uX3ZlcnNpb24iOiAiMSIKfQ=="}
+[info] App configuration is written in /tmp/tribetalk-google-services.json
+[debug] [2026-08-03T11:30:51.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha 200
+[debug] [2026-08-03T11:30:51.822Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha {"certificates":[{"name":"projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha/aa28409cd953c759","shaHash":"4df2e24b0172eb0a1a6c5d18b084b809699873e0","certType":"SHA_1"},{"name":"projects/tribe-talk-app/androidApps/1:75719848755:android:7a91a83d8dbfda133e0446/sha/fb06d927e963245c","shaHash":"621860d3fa3ecd4e3ad18e655ad4a1d02f4c568a09569fcc126ed16ccadd4ca6","certType":"SHA_256"}]}
+[info] ┌──────────────────────────────────────────────┬──────────────────┬──────────────────────────────────────────────────────────────────┬───────────────┐
+│ App Id                                       │ SHA Id           │ SHA Hash                                                         │ SHA Hash Type │
+├──────────────────────────────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────────┼───────────────┤
+│ 1:75719848755:android:7a91a83d8dbfda133e0446 │ aa28409cd953c759 │ 4df2e24b0172eb0a1a6c5d18b084b809699873e0                         │ SHA_1         │
+├──────────────────────────────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────────┼───────────────┤
+│ 1:75719848755:android:7a91a83d8dbfda133e0446 │ fb06d927e963245c │ 621860d3fa3ecd4e3ad18e655ad4a1d02f4c568a09569fcc126ed16ccadd4ca6 │ SHA_256       │
+└──────────────────────────────────────────────┴──────────────────┴──────────────────────────────────────────────────────────────────┴───────────────┘
+[info] 
+[info] 2 SHA hash(es) total.
